@@ -1,0 +1,40 @@
+.registrationContainer{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.informationContainer{
+    width: 500px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 5%;
+}
+.input-field{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.input-field label{
+    width: 150px;
+    padding: 8px;
+    font-size: 18px;
+}
+.input-field input{
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.input-field select{
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+form{
+    margin-top: 20px;
+}
+.title{
+    padding: 8px;
+}
